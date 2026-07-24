@@ -6,13 +6,12 @@ plugins {
 android {
     namespace 'com.tpv.plus'
 
-    compileSdk 34
-    buildToolsVersion = '34.0.4'
+    compileSdk 36
 
     defaultConfig {
         applicationId "com.tpv.plus"
         minSdk 23
-        targetSdkVersion 34
+        targetSdkVersion 36
         versionCode 10
         versionName "1.0-beta"
         ndk.abiFilters 'armeabi-v7a', 'arm64-v8a'
