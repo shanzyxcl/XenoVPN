@@ -6,12 +6,11 @@ plugins {
 android {
     namespace 'app.tunnel.logger'
 
-    compileSdk = 34
-    buildToolsVersion = '34.0.4'
+    compileSdk = 36
 
     defaultConfig {
         minSdk = 23
-        targetSdk = 34
+        targetSdk = 36
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
